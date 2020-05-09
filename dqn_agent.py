@@ -118,7 +118,6 @@ class Agent():
 
 
 class ReplayBuffer:
-    """Fixed-size buffer to store experience tuples."""
 
     def __init__(self, action_size, buffer_size, batch_size, seed):
         """Initialize a ReplayBuffer object.
