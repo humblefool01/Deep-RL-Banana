@@ -2,6 +2,10 @@
 
 In this project, we train an agent in the Unity ml-agents environment to pick up bananas. The goal of the agent is to pick up as many yellow bananas as possible avoidiing the blue ones.
 
+
+![sample](https://user-images.githubusercontent.com/23094225/81484019-2dd36600-91f7-11ea-9917-03d74e164a86.gif)
+
+
 The agent gets a +1 reward for each yellow banana it picks up and a reward of -1 for each blue banana.
 
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
