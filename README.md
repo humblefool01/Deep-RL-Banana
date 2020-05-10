@@ -18,7 +18,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 For the environment to be solved, the agent has to collect an average reward of +13 over 100 consecutive episodes.
 
 ## Training the agent:
-To train the agent, clone this repository in your local directory. 
+To train the agent, clone this repository in your local directory. The unity environment includeed in this repository is for Windows. You can download the environment for your OS from this [link](https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation#getting-started) Make sure the name of the environment (Banana.exe) in the Navigation.ipynb is same as the downlaoded one.
 
 Dependencies:
 
@@ -29,9 +29,13 @@ Dependencies:
 * torch
 * matplotlib
 * numpy
+* pandas
+* scipy
+
+Make sure you have the requirements installed specified in [this](https://github.com/udacity/deep-reinforcement-learning/blob/master/python/requirements.txt)
 
 
-Run the Navigation.ipynb notebook. We set the no_graphics flag to be True when we load the environment, inorder to speed up the training process.
+To train the agent, run the Navigation.ipynb notebook. We set the no_graphics flag to be True when we load the environment, inorder to speed up the training process.
  
 
 ## Testing the agent:
